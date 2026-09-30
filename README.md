@@ -2,19 +2,22 @@
 
 I like writing dev tools that make coding and working with agents easier.
 
-## What I'm working on
+## Terminal tools
 
-| Project | What it does | Links |
-| --- | --- | --- |
-| **Annoterm** | Review and edit Markdown in the terminal. Attach comments and copy structured feedback for a coding agent. | [Website](https://filipgutica.github.io/annoterm/) · [Source](https://github.com/filipgutica/annoterm) |
-| **wtree** | List Git worktrees with age and PR state, create new ones, and review cleanup before removal. | [Website](https://filipgutica.github.io/wtree/) · [Source](https://github.com/filipgutica/wtree) |
-| **devps** | Manage local dev servers on macOS: see what's running, return to its terminal or app, or stop a job. | [Website](https://filipgutica.github.io/devps/) · [Source](https://github.com/filipgutica/devps) |
-| **T3 Code Workbench** | My independent fork of T3 Code for planning across repositories, organizing tickets, and starting agent threads with worktrees. | [Website](https://filipgutica.github.io/t3code/) · [Source](https://github.com/filipgutica/t3code) · [Downloads](https://github.com/filipgutica/t3code/releases) |
-| **filip-stack** | My coding-agent skills and workflows for planning, implementation, review, and technical writing. | [Source & installation](https://github.com/filipgutica/filip-stack) |
+| Tool | What it does | Links | Latest |
+| --- | --- | --- | --- |
+| **annoterm** | Review and edit Markdown in the terminal. Attach comments and copy them as structured feedback for a coding agent. | [Website](https://filipgutica.github.io/annoterm/) · [Source](https://github.com/filipgutica/annoterm) | ![annoterm release](https://img.shields.io/github/v/release/filipgutica/annoterm?style=flat-square&label=&color=555555) |
+| **wtree** | See Git worktrees with their age and pull request state, then review a cleanup plan before removing anything. | [Website](https://filipgutica.github.io/wtree/) · [Source](https://github.com/filipgutica/wtree) | ![wtree release](https://img.shields.io/github/v/release/filipgutica/wtree?style=flat-square&label=&color=555555) |
+| **devps** | Manage local dev servers on macOS. See what started each one, jump back to its terminal or app, or stop the whole job. | [Website](https://filipgutica.github.io/devps/) · [Source](https://github.com/filipgutica/devps) | ![devps release](https://img.shields.io/github/v/release/filipgutica/devps?style=flat-square&label=&color=555555) |
 
-## Install the terminal tools
+## Working with agents
 
-The tools are available through my [Homebrew tap](https://github.com/filipgutica/homebrew-tap):
+- **[T3 Code Workbench](https://filipgutica.github.io/t3code/)** is my fork of T3 Code for planning across repositories, organizing tickets, and starting agent threads in worktrees. [Source](https://github.com/filipgutica/t3code) · [Downloads](https://github.com/filipgutica/t3code/releases)
+- **[filip-stack](https://github.com/filipgutica/filip-stack)** holds the coding-agent skills and workflows I use for planning, implementation, review, and technical writing. It installs as a plugin marketplace for Claude and Codex.
+
+## Install
+
+The three terminal tools install from [filipgutica/homebrew-tap](https://github.com/filipgutica/homebrew-tap):
 
 ```sh
 brew install filipgutica/tap/annoterm
@@ -22,4 +25,4 @@ brew install filipgutica/tap/wtree
 brew install filipgutica/tap/devps
 ```
 
-Annoterm and wtree support macOS and Linux. devps is macOS only.
+annoterm and wtree run on macOS and Linux. devps runs on macOS only.
