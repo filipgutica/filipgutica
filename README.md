@@ -15,6 +15,10 @@ I like writing dev tools that make coding and working with agents easier.
 - **[T3 Code Workbench](https://filipgutica.github.io/t3code/)** is my fork of T3 Code for planning across repositories, organizing tickets, and starting agent threads in worktrees. [Source](https://github.com/filipgutica/t3code) · [Downloads](https://github.com/filipgutica/t3code/releases)
 - **[filip-stack](https://github.com/filipgutica/filip-stack)** holds the coding-agent skills and workflows I use for planning, implementation, review, and technical writing. It installs as a plugin marketplace for Claude and Codex.
 
+## Vue components
+
+- **[Vue UI](https://filipgutica.github.io/ui/)** is my Vue 3 component library for shared controls, dialogs, and code blocks. [Source](https://github.com/filipgutica/ui)
+
 ## Install
 
 The three terminal tools install from [filipgutica/homebrew-tap](https://github.com/filipgutica/homebrew-tap):
